@@ -22,6 +22,6 @@ def find_the_cheese(arrstrings)
 #arrstrings.include?(cheese_types) do |ingreds|
 #return "#{ingreds}"
  
-arrstrings.each { |ingreds| cheese_types.include?(ingreds) }
+arrstrings.find { |ingreds| cheese_types.include?(ingreds) }
  
 end
