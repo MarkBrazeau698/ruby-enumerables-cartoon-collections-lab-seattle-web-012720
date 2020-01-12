@@ -24,6 +24,4 @@ def find_the_cheese(arrstrings)
  
 arrstrings.collect { |ingreds| ingreds.include?("cheese_types") }
  
-
-  
 end
